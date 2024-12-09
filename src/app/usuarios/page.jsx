@@ -1,15 +1,13 @@
-import "../styles.css";  // Importa el archivo de estilos relativo al archivo actual
+import "../styles.css";  
 import axios from "axios";
 import Link from "next/link";
 
-// Función para obtener los usuarios desde la API
 async function getUsuarios() {
     const url = "https://jsonplaceholder.typicode.com/users";
     const usuarios = await axios.get(url);
     return usuarios.data;
 }
 
-// Componente principal
 export default async function Usuarios() {
     const usuarios = await getUsuarios();
     return (
