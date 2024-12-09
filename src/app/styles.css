@@ -1,3 +1,161 @@
-*{
-    background-color: rgb(101, 134, 184);
+/* Restablecer márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para las celdas y las filas */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para los encabezados */
+th {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+}
+
+/* Filas alternas de la tabla */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hipervínculos */
+a {
+    color: #007bff; /* Color azul claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efecto hover sobre los hipervínculos */
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Color azul oscuro */
+}
+
+/* Estilo cuando pasas el ratón sobre las filas de la tabla */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Restablecer márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo de la caja contenedora principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado de la tarjeta */
+.card-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.card-body {
+    padding: 20px;
+}
+
+/* Títulos dentro de la tarjeta */
+h4 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+/* Párrafos de información */
+p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Enlaces (para la URL del sitio web) */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efecto hover sobre los enlaces */
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Estilo cuando pasas el ratón sobre la tarjeta */
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para los textos en negrita */
+strong {
+    font-weight: bold;
+}
+
+/* Estilo para los encabezados secundarios (dentro de la tarjeta) */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
 }

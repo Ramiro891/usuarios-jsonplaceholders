@@ -1,3 +1,4 @@
+import '../../styles.css';
 import axios from "axios";
 
 async function getUsuario(id) {
